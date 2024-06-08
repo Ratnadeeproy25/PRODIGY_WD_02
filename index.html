@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="watch">
+            <div class="circle">
+                <div class="time">
+                    <span class="text min">00:</span>
+                    <span class="text sec">00:</span>
+                    <span class="text msec">00</span>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn reset visibility">Reset</button>
+            <button class="btn start">Start</button>
+            <button class="btn lap visibility">Lap</button>
+        </div>
+        <ul class="laps"></ul>
+        <button class="btn clear visibility">Clear</button>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
